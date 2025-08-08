@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:restapi_covidapp/home_screen.dart';
+import 'package:restapi_covidapp/complex_json_screen.dart';
+// import 'package:restapi_covidapp/custom_model_screen.dart';
+// import 'package:restapi_covidapp/ex3_restapi_screen.dart';
+// import 'package:restapi_covidapp/home_screen.dart';
+import 'package:restapi_covidapp/restapi_without_model.dart';
+import 'package:restapi_covidapp/signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeScreen(),
+      home: Signup(),
     );
   }
 }
